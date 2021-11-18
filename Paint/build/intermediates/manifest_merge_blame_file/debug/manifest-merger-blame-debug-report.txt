@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.paint"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:12:22-76
+19
+20    <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:14:5-72:19
+29        android:allowBackup="true"
+29-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:15:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] C:\Users\meury\.gradle\caches\transforms-3\90fb9824b7c639cafcfd19b8aa61b8da\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:16:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:17:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:18:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:19:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.Paint" >
+37-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:20:9-43
+38
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <meta-data
+48            android:name="com.google.android.geo.API_KEY"
+48-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:31:13-58
+49            android:value="AIzaSyCaRBeKkAQ_HIU4vQ9rfBd0WLy5Whax7go" />
+49-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:32:13-44
+50
+51        <activity
+51-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:34:9-37:59
+52            android:name="com.example.paint.MapsActivity"
+52-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:35:13-41
+53            android:exported="true"
+53-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:36:13-36
+54            android:label="@string/title_activity_maps" />
+54-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:37:13-56
+55        <activity
+55-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:38:9-46:20
+56            android:name="com.example.paint.AboutActivity"
+56-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:39:13-42
+57            android:parentActivityName="com.example.paint.MainActivity" >
+57-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:40:13-55
+58
+59            <!-- The meta-data tag is required if you support API level 15 and lower -->
+60            <meta-data
+60-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:43:13-45:51
+61                android:name="android.support.PARENT_ACTIVITY"
+61-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:44:17-63
+62                android:value=".SplashActivity" />
+62-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:45:17-48
+63        </activity>
+64        <activity
+64-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:47:9-55:20
+65            android:name="com.example.paint.SettingsActivity"
+65-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:48:13-45
+66            android:parentActivityName="com.example.paint.MainActivity" >
+66-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:49:13-55
+67
+68            <!-- The meta-data tag is required if you support API level 15 and lower -->
+69            <meta-data
+69-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:43:13-45:51
+70                android:name="android.support.PARENT_ACTIVITY"
+70-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:44:17-63
+71                android:value=".SplashActivity" />
+71-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:45:17-48
+72        </activity>
+73        <activity
+73-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:56:9-64:20
+74            android:name="com.example.paint.SplashActivity"
+74-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:57:13-43
+75            android:exported="true" >
+75-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:58:13-36
+76            <intent-filter>
+76-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:59:13-63:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:60:17-69
+77-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:60:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:62:17-77
+79-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:62:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:65:9-71:20
+83            android:name="com.example.paint.MainActivity"
+83-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:66:13-41
+84            android:exported="true" >
+84-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:67:13-36
+85            <intent-filter>
+85-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:68:13-70:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:60:17-69
+86-->C:\Users\meury\AndroidStudioProjects\Paint\app\src\main\AndroidManifest.xml:60:25-66
+87            </intent-filter>
+88        </activity>
+89        <!-- Needs to be explicitly declared on P+ -->
+90        <uses-library
+90-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+91            android:name="org.apache.http.legacy"
+91-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+92            android:required="false" />
+92-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\meury\.gradle\caches\transforms-3\a70d2b3ed3336031055a656d34923d07\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\meury\.gradle\caches\transforms-3\2ca10e578d7505ad0bf4a2f74b23cc0a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\meury\.gradle\caches\transforms-3\2ca10e578d7505ad0bf4a2f74b23cc0a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\meury\.gradle\caches\transforms-3\2ca10e578d7505ad0bf4a2f74b23cc0a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\meury\.gradle\caches\transforms-3\2ca10e578d7505ad0bf4a2f74b23cc0a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\meury\.gradle\caches\transforms-3\e919ab5c3a74666b216793143f89b11f\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\meury\.gradle\caches\transforms-3\e919ab5c3a74666b216793143f89b11f\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\meury\.gradle\caches\transforms-3\e919ab5c3a74666b216793143f89b11f\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>
