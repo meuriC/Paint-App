@@ -1,0 +1,41 @@
+com/example/paint/PaintCanvas.java
+ com.example.paint.PaintCanvas
+com/example/paint/GestureListener.java
+ com.example.paint.GestureListener
+com/example/paint/BuildConfig.java
+ com.example.paint.BuildConfig
+com/example/paint/SharedViewModel.java
+ com.example.paint.SharedViewModel
+com/example/paint/BlankFragment.java
+ com.example.paint.BlankFragment
+com/example/paint/databinding/ActivityMainBinding.java
+ com.example.paint.databinding.ActivityMainBinding
+com/example/paint/databinding/ActivitySettingsBinding.java
+ com.example.paint.databinding.ActivitySettingsBinding
+com/example/paint/SplashActivity.java
+ com.example.paint.SplashActivity
+ com.example.paint.SplashActivity$1
+com/example/paint/databinding/ActivityMapsBinding.java
+ com.example.paint.databinding.ActivityMapsBinding
+com/example/paint/databinding/ActivitySplashBinding.java
+ com.example.paint.databinding.ActivitySplashBinding
+com/example/paint/SettingsActivity.java
+ com.example.paint.SettingsActivity
+ com.example.paint.SettingsActivity$1
+ com.example.paint.SettingsActivity$2
+com/example/paint/databinding/ActivityAboutBinding.java
+ com.example.paint.databinding.ActivityAboutBinding
+com/example/paint/databinding/FragmentBlankBinding.java
+ com.example.paint.databinding.FragmentBlankBinding
+com/example/paint/AboutActivity.java
+ com.example.paint.AboutActivity
+com/example/paint/databinding/FragmentPaletteBinding.java
+ com.example.paint.databinding.FragmentPaletteBinding
+com/example/paint/PaletteFragment.java
+ com.example.paint.PaletteFragment
+com/example/paint/MapsActivity.java
+ com.example.paint.MapsActivity
+ com.example.paint.MapsActivity$1
+com/example/paint/MainActivity.java
+ com.example.paint.MainActivity
+ com.example.paint.MainActivity$1
