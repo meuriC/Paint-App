@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlVar2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+        android:layout_marginTop="238dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Grupo 1"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-1dp" />
+
+        <TextView
+            android:id="@+id/txtGroupElement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meuri Canhanga \nRita Morais \nJoão Francisco Duarte Monteiro"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
